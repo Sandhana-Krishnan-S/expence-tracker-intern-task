@@ -3,6 +3,7 @@
 import { useState } from "react";
 import TransactionForm from "./components/TransactionForm";
 import TransactionList from "./components/TransactionList";
+import CategoryPieChart from "./components/CategoryPieChart";
 import NavBar from "./components/NavBar";
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       <div className="flex-1 p-4 text-white">
         {activePage === "home" && <TransactionList />}
         {activePage === "add-transaction" && <TransactionForm />}
-        {activePage === "report" && <div>Report Page</div>}
+        {activePage === "report" && <CategoryPieChart />}
       </div>
     </main>
   );

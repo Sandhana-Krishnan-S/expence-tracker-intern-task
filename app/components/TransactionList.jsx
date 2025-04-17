@@ -10,7 +10,7 @@ import { groupTransactionsByMonth } from "@/lib/utils";
 
 export default function TransactionList() {
   const [transactions, setTransactions] = useState([]);
-  const [editing, setEditing] = useState(null); // currently editing transaction
+  const [editing, setEditing] = useState(null); 
   const [updatedTx, setUpdatedTx] = useState({ amount: "", description: "" });
 
   const fetchTransactions = async () => {
