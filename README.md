@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**Transaction app Task**
 
-## Getting Started
+# Thoughtprocess
+- Create the most minimum requirement first.
+- Polish the app with decent UI.
 
-First, run the development server:
+# Tech-Stack
+- Next JS - with react JS.
+- MongoDb - on atles.
+- Shadcn/UI - UI elements.
+- Recharts - bar and pie chart.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Deployed At
+[App](https://expence-tracker-intern-task.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Design
+[Figma](https://www.figma.com/design/wQEd0NI4iMDykRTwUCESbE/Untitled?node-id=0-1&t=Stgv74VCNnJ32hgu-1)
+used for a general shape and UI look.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Resources used
+- Shadcn/UI - Documentation.
+- Navbar - Vercel's Shadcn/ui template.
+- MongoDB Atles Documentation.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Tasks done
+### Task One
+- Add Transactions.
+- Get All Transactions (API).
+- Update Transaction.
+- Delete Transaction.
+- Display Transactions.
+- Month based Bar Chart.
 
-## Learn More
+### Task Two
+- Categorize Transactions.
+- Pie Chart - Category Wise.
+- Month Filter for Chart.
+- Card showing totals per category.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Additionaly 
+- Responsive and mobile-friendly components.
+- Clean, shadcn/ui-based design.
